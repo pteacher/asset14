@@ -8,11 +8,39 @@
 
 body {
     margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-family: 'Roboto';
 }
 
 .blackpremium img {
     width: 80%;
+}
+
+.checklist-item {
+    display: flex;
+}
+
+.svg-icon {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin: 10px;
+}
+
+.checklist-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checklist-text p {
+    margin: 0px 0px;
+}
+
+.checklist-item p:first-child {
+    font-weight: 800;
+}
+
+.checklist-item p:last-child {
+    color: grey;
+    font-size: small;
 }
