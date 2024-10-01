@@ -1,0 +1,18 @@
+.card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackpremium img {
+    width: 80%;
+}
